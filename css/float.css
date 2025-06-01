@@ -1,0 +1,35 @@
+.box1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    font-size: 48px;
+    text-align: center;
+
+    float: left;
+}
+.box2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    font-size: 48px;
+    text-align: center;
+    float: left;
+}
+.box3{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    font-size: 48px;
+    text-align: center;
+    float: left;
+}
+p{
+    clear: right;
+}
+/* 
+img{
+    float: left;
+} */
