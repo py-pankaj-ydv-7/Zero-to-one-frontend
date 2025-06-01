@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    padding: 50px; /* padding lagti hai text k upper box k andar */
+    margin-top: 14px ;/* margin lagti hai box k uper */
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+}
