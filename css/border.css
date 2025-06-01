@@ -2,8 +2,11 @@ h1{
     border-top-style: dotted;
     border-bottom-style: dotted;
     border-left-style: dotted;
+    border-right-style: dotted;
     border-left-width: 10px;
+    border-right-width: 10px;
     border-left-color: silver;
+    border-right-color: silver;
 }
 
 
