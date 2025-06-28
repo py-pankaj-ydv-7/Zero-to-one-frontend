@@ -279,7 +279,12 @@ Navbar
   align-items: center;
 }
 
-.nav-header{
+.nav-logo{
+  display: flex;
+  align-items: center;
+}
+
+.nav-header img{
   width: 200px;
 }
 
@@ -294,6 +299,12 @@ Navbar
 .nav-links{
   display: flex;
   flex-direction: column;
+  height: 0;
+  overflow: hidden;
+}
+
+.show-links{
+  height: 310px;
 }
 
 .nav-link{
@@ -304,4 +315,12 @@ Navbar
   letter-spacing: var(--letterSpacing);
   padding: 1rem 0;
   border-top: 1px solid var(--grey-500);
+}
+
+.nav-link a{
+  color: var(--primary-500);
+}
+
+.contact-link a{
+  padding: 0.15rem 1rem;
 }
