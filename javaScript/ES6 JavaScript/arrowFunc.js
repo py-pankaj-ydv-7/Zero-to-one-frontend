@@ -4,13 +4,16 @@
 // new js me ek prakar ka function hai , jiske teen roop hai:
 // arrow function
 //1. basic fat arrow function
-()=>{} // this is arrow func
-var func = ()=>{} ;// this is arrow function , store in func name variable.
 
+() => {}; // this is arrow func
+
+var func = () => {}; // this is arrow function , store in func name variable.
 
 //2.fat arrow function with one parameters
-var b = (parm)=>{}; // one variable k case me hum ise hata sakte hai, parm k bracket ko 
+
+var b = (parm) => {}; // one variable k case me hum ise hata sakte hai, parm k bracket ko
 
 //3.fat arrow function with implicit return
-var g = ()=>12;
+
+var g = () => 12;
 console.log(g());
