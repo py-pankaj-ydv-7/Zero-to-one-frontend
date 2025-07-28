@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links,li{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav-links.li,a{
+    text-decoration: none;
+    color: rgb(203, 40, 67);
+    font-weight:600;
+    
+}
+
+.hero{
+      background-image: url('/Zero-to-one-frontend/HtmlCssProjects/SimplyRecipes/Restaurant/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.search-box{
+     
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.search-box, input{
+    border-radius: 3px;
+    border: none;
+    width: 60%;
+    padding: 10px 20px;
+
+    font-size: 16px ;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: rgb(203, 40, 67);
+  color: #fffefe;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  
+  margin-left: 8px;
+}
+
+.search-box button:hover {
+  background-color: #ffbb00;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.foods-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 80px;
+    
+}
+ .foods-images,img{
+    border-radius: 10px;
+    /* height: 300px; */
+    /* height: 50px; */
+    /* width: 50px; */
+}
+.menu {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.menu-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.menu h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.menu-item {
+  background-color: #fff7f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.menu-item h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.menu-item p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6347;
+}
+
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 60px 20px 20px;
+  margin-top: 60px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-logo h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer-logo span {
+  color: #ffe000;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ffe000;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffe000;
+}
+
+.footer-contact p {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #aaa;
+}
