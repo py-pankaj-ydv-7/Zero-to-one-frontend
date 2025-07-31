@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(184, 124, 124);
+    justify-content: space-between;
+
+}
+
+.navlink,a{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+
+}
+
+#hero-section{
+    height: 200px;
+    width: 100%;
+    
+}
+
+#hero-section,#hero-img{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/Zero-to-one-frontend/HtmlCssProjects/Restaurant2/web-design-course-restaurant-vijaythapa/bg.jpg");
+    background-size:cover;
+
+    
+}
+
+button{
+    color: white;
+    background-color: rgb(237, 37, 127);
+    border: none;
+    font-size: 18px;
+    margin-left: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+button:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+input{
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+}
+#h2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.section2{
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+.foodimgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top:40px;
+    cursor: pointer;
+    
+
+}
+
+
+.momoimg{
+    border-radius: 10px;
+    height:280px;
+    width: 300px;
+    
+}
+
+.section3{
+    background-color: aliceblue;
+    height:300px;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+
+footer{
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
